@@ -36,26 +36,11 @@ jQuery(function($){
 	/* ----------------------------------------------------------- */
 	/*  2. SUPERSLIDES SLIDER
 	/* ----------------------------------------------------------- */
-	$('#slides').superslides({
-      animation: 'fade',
-      animation_easing: 'linear',
-      pagination: 'true'
-    });
+	
 	
 	/* ----------------------------------------------------------- */
 	/*  3. NEWS SLIDER
-	/* ----------------------------------------------------------- */
-	$('.single_notice_pane').slick({     
-      slide: 'ul'
-      
-    });
-    $('[href="#notice"]').on('shown.bs.tab', function (e) {
-    $('.single_notice_pane').resize();
-	});
-	 $('[href="#news"]').on('shown.bs.tab', function (e) {
-    $('.single_notice_pane').resize();
-	});   
-    
+	/* ----------------------------------------------------------- *
 
 
 	/* ----------------------------------------------------------- */

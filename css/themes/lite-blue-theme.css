@@ -41,8 +41,8 @@ Author URI : http://www.wpfreeware.com/
 .feed_tabs{border-bottom: 2px solid #37c6f5;}
 .feed_tabs li.active a,.feed_tabs li.active a:hover,.feed_tabs li.active a:focus{
   border:2px solid;
-  color: #37c6f5 !important; 
-  border-color: #37c6f5 #37c6f5 transparent;
+  color: black !important; 
+  border-color: black black transparent;
 }
 
 .feed_tabs li a:hover{ 
