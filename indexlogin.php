@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-	<title>THDC-IHET</title>
+  <title>THDC-IHET</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Mobile Specific Metas
@@ -37,7 +37,7 @@
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>    
 </head>
 <body>
-	<!-- SCROLL TOP BUTTON -->
+  <!-- SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#"></a>
   
   <div class="blackmenu">
@@ -129,7 +129,22 @@
       </div>   
     </header>
     <!--=========== END HEADER SECTION ================ -->
-
+<div class="loginform-in">
+<h1>User Login</h1>
+<div class="err" id="add_err"></div>
+<fieldset>
+  <form action="./" method="post">
+    <ul>
+      <li> <label for="name">Username </label>
+      <input type="text" size="30"  name="name" id="name"  /></li>
+      <li> <label for="name">Password</label>
+      <input type="password" size="30"  name="word" id="word"  /></li>
+      <li> <label></label>
+      <input type="submit" id="login" name="login" value="Login" class="loginbutton" ></li>
+    </ul>
+         </form>  
+</fieldset>
+</div>
        <!--=========== Slider SECTION ================ -->
 <div class="container">
  <div class="row">
